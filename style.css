@@ -1,0 +1,70 @@
+.black{
+    background:linear-gradient(300deg, #04619F,#000000,#326ded);
+    background-size: 200% 200%;
+    animation: gradient-animation 20s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0%{
+        background-position: 0% 50%;
+    }
+
+    50%{
+        background-position: 50% 100%;
+    }
+
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+.features{
+    background-color: gray;
+}
+
+.features h2{
+    color: #04619F;
+}
+
+p {
+  font-family: "Exo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:normal;
+  font-style: normal;
+}
+  
+h1{
+    color: lightslategray;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    color: gray;
+    padding: 2px;
+    margin: 10px;
+}
+
+p{
+    color: gray;
+    text-align: center;
+}
+
+.main-img{
+    height: 500px;
+}
+
+strong{
+    color: #04619F;
+}
+
+@media (maxwidth:575px){
+    .after{
+        text-align: center;
+    }
+}
